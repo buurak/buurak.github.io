@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/welcome-to-jekyll/</loc>
-<lastmod>2017-04-06T13:32:20+03:00</lastmod>
-</url>
-<url>
-<loc>/conference-on-javascript/</loc>
-<lastmod>2017-09-10T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>/10-tips-to-improve-your-workflow/</loc>
-<lastmod>2017-09-12T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>/how-to-start-programming/</loc>
-<lastmod>2017-09-12T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>/the-best-organizer-software/</loc>
-<lastmod>2017-09-12T00:00:00+03:00</lastmod>
+<loc>/benim-hakk%C4%B1mda/</loc>
+<lastmod>2021-01-07T22:29:00+03:00</lastmod>
 </url>
 <url>
 <loc>/</loc>
