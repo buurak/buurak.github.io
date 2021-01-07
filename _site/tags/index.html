@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>buurak</title>
+	<title>Tags - buurak</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="buurak" property="og:site_name">
   
-    <meta content="buurak" property="og:title">
+    <meta content="Tags" property="og:title">
   
   
-    <meta content="website" property="og:type">
+    <meta content="article" property="og:type">
   
   
     <meta content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 " property="og:description">
   
   
-    <meta content="/" property="og:url">
+    <meta content="/tags/" property="og:url">
   
   
   
@@ -31,10 +31,10 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@bbburakb">
   
-    <meta name="twitter:title" content="buurak">
+    <meta name="twitter:title" content="Tags">
   
   
-    <meta name="twitter:url" content="/">
+    <meta name="twitter:url" content="/tags/">
   
   
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -48,7 +48,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
-	<link rel="shortcut icon" href="/assets/img/favicon/jam.png" type="image/x-icon">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
@@ -105,31 +105,39 @@
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   
-<article class="post">
+
+
+<section class="blog-tags">
+  <h1>Tags in Blog</h1>
+  <ul class="tags">
+<!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   
-    <a class="post-thumbnail" style="background-image: url(/assets/img/software.jpg)" href="/benim-hakk%C4%B1mda/"></a>
+    <li ><a href="#Hayat" class="tag">Hayat <span>(1)</span></a></li>
   
-  <div class="post-content">
-    <h2 class="post-title"><a href="/benim-hakk%C4%B1mda/">Kısa Öyküm</a></h2>
-    <p>Merhaba, ben Burak nevi şahsına münhasır, ne yazık ki herkes gibi değilim ahahahah bu durumdan...</p>
-    <span class="post-date">2021, Jan 07&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">2 minute read</span>
-  </div>
-</article>
-
-
-<div class="container">
-  <nav class="pagination" role="pagination">
-    <ul>
-      
-
-      
-      
-      
-    </ul>
-  </nav>
-</div>
-
+    <li ><a href="#%C3%9Cniversite" class="tag">Üniversite <span>(1)</span></a></li>
+  
+  </ul>
+<!--cycles through tag list and creates subheader for each tag name...-->
+  
+  <h2 id="Hayat">Hayat</h2>
+<!--  lists all posts corresponding to specific tag...-->
+    
+    <div class="tag-list">
+        <span><a href="/benim-hakk%C4%B1mda/">Kısa Öyküm</a></span>
+        <small><span>| 07 Jan 2021</span></small>
+    </div>
+    
+  
+  <h2 id="%C3%9Cniversite">Üniversite</h2>
+<!--  lists all posts corresponding to specific tag...-->
+    
+    <div class="tag-list">
+        <span><a href="/benim-hakk%C4%B1mda/">Kısa Öyküm</a></span>
+        <small><span>| 07 Jan 2021</span></small>
+    </div>
+    
+  
+</section>
 
 </div>
 
